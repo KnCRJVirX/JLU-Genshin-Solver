@@ -8,9 +8,9 @@ from urllib.parse import quote
 url = "https://virtualcourse.zhihuishu.com/report/saveReport"
 
 # 随便提交一次，saveReport请求的body（“负载”选项卡）里的jsonStr字段内容中键名为uuid，&9734结尾的字符串
-uuid = input("请输入uuid（随便提交一次，saveReport请求的body（“负载”选项卡）里的jsonStr字段内容中键名为uuid，&9734结尾的字符串）：")
+uuid = input("UUID: ")
 # virtualcourse.zhihuishu.com的Cookies中的acw_tc字段
-acw_tc = input("请输入acw_tc（virtualcourse.zhihuishu.com的Cookies中的acw_tc字段）：")
+acw_tc = input("acw_tc: ")
 
 # 构造原始数据
 json_payload = None
